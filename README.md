@@ -20,7 +20,7 @@ Full documentation can be found at [http://opensource.box.com/spout/](http://ope
 
 ## Requirements
 
-* PHP version 5.4.0 or higher
+* PHP version 5.4.0 or higher (PHP 8.3.x +)
 * PHP extension `php_zip` enabled
 * PHP extension `php_xmlreader` enabled
 
