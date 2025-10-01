@@ -1,3 +1,7 @@
+# This is a fork of box/spout version 2.7.3
+
+* PHP 8.3.x support
+
 # Spout
 
 [![Latest Stable Version](https://poser.pugx.org/box/spout/v/stable)](https://packagist.org/packages/box/spout)
@@ -20,7 +24,7 @@ Full documentation can be found at [http://opensource.box.com/spout/](http://ope
 
 ## Requirements
 
-* PHP version 5.4.0 or higher (PHP 8.3.x +)
+* PHP version 5.4.0 or higher
 * PHP extension `php_zip` enabled
 * PHP extension `php_xmlreader` enabled
 
