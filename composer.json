@@ -1,37 +1,38 @@
 {
-    "name": "box/spout",
-    "description": "PHP Library to read and write spreadsheet files (CSV, XLSX and ODS), in a fast and scalable way",
+    "name": "positivaatgithub/box-spout",
+    "description": "PHP 8.3+ Library to read and write spreadsheet files (CSV, XLSX and ODS), in a fast and scalable way",
     "type": "library",
-    "keywords": ["php","read","write","csv","xlsx","ods","odf","open","office","excel","spreadsheet","scale","memory","stream","ooxml"],
+    "keywords": [
+        "php",
+        "spreadsheet",
+        "csv",
+        "xlsx",
+        "ods",
+        "excel",
+        "reader",
+        "writer",
+        "streaming"
+    ],
     "license": "Apache-2.0",
-    "homepage": "https://www.github.com/box/spout",
+    "homepage": "https://github.com/positivaatgithub/box-spout",
     "authors": [
         {
-            "name": "Adrien Loison",
-            "email": "adrien@box.com"
+            "name": "Positiva",
+            "email": "zan.jankovec@positiva.com"
         }
     ],
     "require": {
-        "php": ">=5.4.0",
+        "php": ">=8.3",
         "ext-zip": "*",
-        "ext-xmlreader" : "*"
+        "ext-xmlreader": "*"
     },
     "require-dev": {
-        "phpunit/phpunit": "^4.8.0"
-    },
-    "suggest": {
-        "ext-iconv": "To handle non UTF-8 CSV files (if \"php-intl\" is not already installed or is too limited)",
-        "ext-intl": "To handle non UTF-8 CSV files (if \"iconv\" is not already installed)"
+        "phpunit/phpunit": "^10.5"
     },
     "autoload": {
         "psr-4": {
-            "Box\\Spout\\": "src/Spout"
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "2.8.x-dev"
+            "Box\\Spout\\": "src/Spout/"
         }
     }
-
 }
+
